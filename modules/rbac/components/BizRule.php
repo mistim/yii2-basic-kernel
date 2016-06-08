@@ -1,12 +1,12 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\components;
+namespace mistim\modules\rbac\components;
 
 use yii\rbac\Rule;
 
 /**
  * Class BizRule
- * @package mistim\kernel\modules\rbac\components
+ * @package mistim\modules\rbac\components
  */
 class BizRule extends Rule
 {

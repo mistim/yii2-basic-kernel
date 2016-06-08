@@ -1,9 +1,9 @@
 <?php
-namespace mistim\kernel\modules\site\controllers;
+namespace mistim\modules\site\controllers;
 
 /**
  * Class MainController
- * @package mistim\kernel\modules\site\controllers
+ * @package mistim\modules\site\controllers
  */
 class MainController extends BaseController
 {

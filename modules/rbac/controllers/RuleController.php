@@ -1,16 +1,16 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\controllers;
+namespace mistim\modules\rbac\controllers;
 
 use Yii;
 use yii\web\NotFoundHttpException;
-use mistim\kernel\modules\rbac\models\BizRuleModel;
-use mistim\kernel\modules\rbac\models\search\BizRuleSearch;
-use mistim\kernel\modules\admin\controllers\BaseController;
+use mistim\modules\rbac\models\BizRuleModel;
+use mistim\modules\rbac\models\search\BizRuleSearch;
+use mistim\modules\admin\controllers\BaseController;
 
 /**
  * Class RuleController
- * @package mistim\kernel\modules\rbac\controllers
+ * @package mistim\modules\rbac\controllers
  */
 class RuleController extends BaseController
 {

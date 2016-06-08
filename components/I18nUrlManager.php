@@ -1,6 +1,6 @@
 <?php
 
-namespace mistim\kernel\components;
+namespace mistim\components;
 
 use Yii;
 use yii\helpers\ArrayHelper;

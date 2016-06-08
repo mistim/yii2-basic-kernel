@@ -1,6 +1,6 @@
 <?php
 
-namespace mistim\kernel\models;
+namespace mistim\models;
 
 use Yii;
 use yii\base\Model;

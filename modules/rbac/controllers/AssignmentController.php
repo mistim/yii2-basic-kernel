@@ -1,6 +1,6 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\controllers;
+namespace mistim\modules\rbac\controllers;
 
 use yii\filters\VerbFilter;
 use yii\helpers\ArrayHelper;
@@ -8,12 +8,12 @@ use yii\helpers\Html;
 use Yii;
 use yii\web\NotFoundHttpException;
 use yii\web\Response;
-use mistim\kernel\modules\rbac\models\search\AssignmentSearch;
-use mistim\kernel\modules\admin\controllers\BaseController;
+use mistim\modules\rbac\models\search\AssignmentSearch;
+use mistim\modules\admin\controllers\BaseController;
 
 /**
  * Class AssignmentController
- * @package mistim\kernel\modules\rbac\controllers
+ * @package mistim\modules\rbac\controllers
  */
 class AssignmentController extends BaseController
 {
@@ -46,7 +46,7 @@ class AssignmentController extends BaseController
         parent::init();
         if ($this->userClassName === null) {
             $this->userClassName = Yii::$app->getUser()->identityClass;
-            $this->userClassName = $this->userClassName ?: 'mistim\kernel\models\UserModel';
+            $this->userClassName = $this->userClassName ?: 'mistim\models\UserModel';
         }
     }
 

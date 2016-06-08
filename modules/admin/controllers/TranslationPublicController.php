@@ -1,10 +1,10 @@
 <?php
 
-namespace mistim\kernel\modules\admin\controllers;
+namespace mistim\modules\admin\controllers;
 
-use mistim\kernel\models\Message;
-use mistim\kernel\models\Search\SourceMessageSearch;
-use mistim\kernel\models\SourceMessage;
+use mistim\models\Message;
+use mistim\models\Search\SourceMessageSearch;
+use mistim\models\SourceMessage;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\web\NotFoundHttpException;

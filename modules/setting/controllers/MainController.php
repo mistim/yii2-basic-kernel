@@ -1,17 +1,17 @@
 <?php
 
-namespace mistim\kernel\modules\setting\controllers;
+namespace mistim\modules\setting\controllers;
 
 use Yii;
-use mistim\kernel\modules\setting\models\Setting;
-use mistim\kernel\modules\setting\models\search\SettingSearch;
-use mistim\kernel\modules\admin\controllers\BaseController;
+use mistim\modules\setting\models\Setting;
+use mistim\modules\setting\models\search\SettingSearch;
+use mistim\modules\admin\controllers\BaseController;
 use yii\base\InvalidParamException;
 use yii\web\NotFoundHttpException;
 
 /**
  * Class MainController
- * @package mistim\kernel\modules\setting\controllers
+ * @package mistim\modules\setting\controllers
  */
 class MainController extends BaseController
 {

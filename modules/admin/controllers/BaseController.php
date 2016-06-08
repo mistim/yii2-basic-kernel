@@ -1,14 +1,14 @@
 <?php
-namespace mistim\kernel\modules\admin\controllers;
+namespace mistim\modules\admin\controllers;
 
 use Yii;
 use yii\filters\VerbFilter;
 use yii\web\Controller;
-use mistim\kernel\modules\rbac\components\AccessControl;
+use mistim\modules\rbac\components\AccessControl;
 
 /**
  * Class BaseController
- * @package mistim\kernel\modules\admin\controllers
+ * @package mistim\modules\admin\controllers
  */
 class BaseController extends Controller
 {

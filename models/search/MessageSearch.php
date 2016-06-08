@@ -1,16 +1,16 @@
 <?php
 
-namespace mistim\kernel\models\search;
+namespace mistim\models\search;
 
-use mistim\kernel\modules\setting\models\Setting;
+use mistim\modules\setting\models\Setting;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use mistim\kernel\models\Message;
+use mistim\models\Message;
 
 /**
  * Class MessageSearch
- * @package mistim\kernel\models\search
+ * @package mistim\models\search
  */
 class MessageSearch extends Message
 {

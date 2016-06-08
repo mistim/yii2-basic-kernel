@@ -6,7 +6,7 @@ use mistim\theme\adminlte\widgets\Box;
 
 /**
  * @var yii\web\View $this
- * @var mistim\kernel\modules\rbac\models\RouteModel $model
+ * @var mistim\modules\rbac\models\RouteModel $model
  * @var yii\bootstrap\ActiveForm $form
  */
 

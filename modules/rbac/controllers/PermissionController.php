@@ -1,6 +1,6 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\controllers;
+namespace mistim\modules\rbac\controllers;
 
 use Yii;
 use yii\helpers\ArrayHelper;
@@ -8,13 +8,13 @@ use yii\helpers\Html;
 use yii\rbac\Item;
 use yii\web\NotFoundHttpException;
 use yii\web\Response;
-use mistim\kernel\modules\rbac\models\AuthItemModel;
-use mistim\kernel\modules\rbac\models\search\AuthItemSearch;
-use mistim\kernel\modules\admin\controllers\BaseController;
+use mistim\modules\rbac\models\AuthItemModel;
+use mistim\modules\rbac\models\search\AuthItemSearch;
+use mistim\modules\admin\controllers\BaseController;
 
 /**
  * Class PermissionController
- * @package mistim\kernel\modules\rbac\controllers
+ * @package mistim\modules\rbac\controllers
  */
 class PermissionController extends BaseController
 {

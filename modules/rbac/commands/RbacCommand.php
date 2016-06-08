@@ -1,5 +1,5 @@
 <?php
-namespace mistim\kernel\modules\rbac\commands;
+namespace mistim\modules\rbac\commands;
 
 use Yii;
 use yii\console\Controller;
@@ -8,7 +8,7 @@ use yii\db\QueryBuilder;
 
 /**
  * Class RbacCommand
- * @package mistim\kernel\modules\rbac\commands
+ * @package mistim\modules\rbac\commands
  */
 class RbacCommand extends Controller
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace mistim\kernel\modules\admin\controllers;
+namespace mistim\modules\admin\controllers;
 
-use mistim\kernel\models\Message;
-use mistim\kernel\models\SourceMessage;
-use mistim\kernel\models\Search\MessageSearch;
+use mistim\models\Message;
+use mistim\models\SourceMessage;
+use mistim\models\Search\MessageSearch;
 use Yii;
 use yii\base\InvalidParamException;
 use yii\web\NotFoundHttpException;
@@ -12,7 +12,7 @@ use yii\helpers\Url;
 
 /**
  * Class TranslationAdminController
- * @package mistim\kernel\modules\admin\controllers
+ * @package mistim\modules\admin\controllers
  */
 class TranslationAdminController extends BaseController
 {

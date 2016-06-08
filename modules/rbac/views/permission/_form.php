@@ -5,7 +5,7 @@ use yii\bootstrap\ActiveForm;
 
 /**
  * @var yii\web\View $this
- * @var mistim\kernel\modules\rbac\models\AuthItemModel $model
+ * @var mistim\modules\rbac\models\AuthItemModel $model
  * @var yii\bootstrap\ActiveForm $form
  */
 ?>

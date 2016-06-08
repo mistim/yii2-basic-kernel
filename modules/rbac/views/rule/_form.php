@@ -5,7 +5,7 @@ use yii\bootstrap\ActiveForm;
 
 /**
  * @var yii\web\View $this
- * @var mistim\kernel\modules\rbac\models\AuthItemModel $model
+ * @var mistim\modules\rbac\models\AuthItemModel $model
  * @var yii\bootstrap\ActiveForm $form
  */
 ?>
@@ -28,7 +28,7 @@ use yii\bootstrap\ActiveForm;
 
     <?php echo $form->field($model, 'expression')->textarea([
         'rows'     => 2,
-        'disabled' => $model->className != '' && $model->className != 'mistim\kernel\modules\rbac\components\BizRule'
+        'disabled' => $model->className != '' && $model->className != 'mistim\modules\rbac\components\BizRule'
     ])->hint('Simple PHP expression. Example: return Yii::$app->user->isGuest;');
     ?>
 

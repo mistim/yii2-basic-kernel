@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use mistim\theme\adminlte\widgets\Box;
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\models\Language */
+/* @var $model mistim\models\Language */
 
 $this->title = Yii::t('admin', 'Create Language');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('admin', 'Languages'), 'url' => ['index']];

@@ -3,17 +3,17 @@
 return [
     'modules' => [
         'rbac' => [
-            'class' => 'mistim\kernel\modules\rbac\Module',
+            'class' => 'mistim\modules\rbac\Module',
             //Some controller property maybe need to change.
             'controllerMap' => [
                 'assignment' => [
-                    'class'         => 'mistim\kernel\modules\rbac\controllers\AssignmentController',
-                    'userClassName' => 'mistim\kernel\modules\admin\models\AdminAuth',
+                    'class'         => 'mistim\modules\rbac\controllers\AssignmentController',
+                    'userClassName' => 'mistim\modules\admin\models\AdminAuth',
                 ]
             ]
         ],
         'setting' => [
-            'class' => 'mistim\kernel\modules\setting\Module',
+            'class' => 'mistim\modules\setting\Module',
         ],
     ],
 ];

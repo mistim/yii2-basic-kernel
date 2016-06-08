@@ -1,14 +1,14 @@
 <?php
 
-namespace mistim\kernel\modules\setting\models\search;
+namespace mistim\modules\setting\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use mistim\kernel\modules\setting\models\Setting;
+use mistim\modules\setting\models\Setting;
 
 /**
- * SettingSearch represents the model behind the search form about `mistim\kernel\models\Setting`.
+ * SettingSearch represents the model behind the search form about `mistim\models\Setting`.
  */
 class SettingSearch extends Setting
 {

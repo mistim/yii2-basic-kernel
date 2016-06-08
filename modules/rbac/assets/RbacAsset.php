@@ -1,13 +1,13 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\assets;
+namespace mistim\modules\rbac\assets;
 
 use yii\web\AssetBundle;
 
 
 /**
  * Class RbacAsset
- * @package mistim\kernel\modules\rbac\assets
+ * @package mistim\modules\rbac\assets
  */
 class RbacAsset extends AssetBundle
 {

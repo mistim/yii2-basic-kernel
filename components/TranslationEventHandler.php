@@ -1,11 +1,11 @@
 <?php
 
-namespace mistim\kernel\components;
+namespace mistim\components;
 
-use mistim\kernel\models\Language;
-use mistim\kernel\models\SourceMessage;
-use mistim\kernel\models\Message;
-use mistim\kernel\modules\setting\models\Setting;
+use mistim\models\Language;
+use mistim\models\SourceMessage;
+use mistim\models\Message;
+use mistim\modules\setting\models\Setting;
 use yii\helpers\ArrayHelper;
 use yii\i18n\MissingTranslationEvent;
 use Yii;
@@ -13,7 +13,7 @@ use yii\db\Query;
 
 /**
  * Class TranslationEventHandler
- * @package mistim\kernel\components
+ * @package mistim\components
  */
 class TranslationEventHandler
 {

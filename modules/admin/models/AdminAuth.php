@@ -1,14 +1,14 @@
 <?php
 
-namespace mistim\kernel\modules\admin\models;
+namespace mistim\modules\admin\models;
 
-use mistim\kernel\modules\admin\models\Admin;
+use mistim\modules\admin\models\Admin;
 use yii\web\IdentityInterface;
 use Yii;
 
 /**
  * Class AdminAuth
- * @package mistim\kernel\modules\admin\models
+ * @package mistim\modules\admin\models
  */
 class AdminAuth extends Admin implements IdentityInterface
 {

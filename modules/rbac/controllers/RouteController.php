@@ -1,19 +1,19 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\controllers;
+namespace mistim\modules\rbac\controllers;
 
 use yii\helpers\ArrayHelper;
 use yii\helpers\Html;
 use yii\web\Response;
 use Yii;
-use mistim\kernel\modules\rbac\components\AccessHelper;
-use mistim\kernel\modules\rbac\models\RouteModel;
-use mistim\kernel\modules\admin\controllers\BaseController;
+use mistim\modules\rbac\components\AccessHelper;
+use mistim\modules\rbac\models\RouteModel;
+use mistim\modules\admin\controllers\BaseController;
 
 
 /**
  * Class RouteController
- * @package mistim\kernel\modules\rbac\controllers
+ * @package mistim\modules\rbac\controllers
  */
 class RouteController extends BaseController
 {

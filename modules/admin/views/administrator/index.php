@@ -2,14 +2,14 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-use mistim\kernel\modules\admin\models\Admin;
+use mistim\modules\admin\models\Admin;
 use mistim\theme\adminlte\widgets\Box;
 use mistim\theme\adminlte\widgets\grid\ActionColumn;
 use mistim\theme\adminlte\widgets\DatePicker;
 use yii\widgets\Pjax;
 
 /* @var $this yii\web\View */
-/* @var $searchModel mistim\kernel\modules\admin\models\search\AdminSearch */
+/* @var $searchModel mistim\modules\admin\models\search\AdminSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('admin', 'Administrators');
@@ -37,7 +37,7 @@ $gridConfig = [
             'attribute' => 'role',
             'value'     => function (Admin $data) {
                 $result = [];
-                /** @var mistim\kernel\modules\rbac\models\AuthAssignmentModel $role */
+                /** @var mistim\modules\rbac\models\AuthAssignmentModel $role */
                 foreach ($data->roles as $role) {
                     $result[] = $role->item_name;
                 }

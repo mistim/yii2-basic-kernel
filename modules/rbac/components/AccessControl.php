@@ -1,12 +1,12 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\components;
+namespace mistim\modules\rbac\components;
 
 use Yii;
 
 /**
  * Class AccessControl
- * @package mistim\kernel\modules\rbac\components
+ * @package mistim\modules\rbac\components
  */
 class AccessControl extends \yii\filters\AccessControl
 {

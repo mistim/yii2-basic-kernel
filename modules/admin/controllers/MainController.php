@@ -1,13 +1,13 @@
 <?php
 
-namespace mistim\kernel\modules\admin\controllers;
+namespace mistim\modules\admin\controllers;
 
-use mistim\kernel\modules\admin\models\LoginForm;
+use mistim\modules\admin\models\LoginForm;
 use Yii;
 
 /**
  * Class MainController
- * @package mistim\kernel\modules\admin\controllers
+ * @package mistim\modules\admin\controllers
  */
 class MainController extends BaseController
 {

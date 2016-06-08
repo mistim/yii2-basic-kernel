@@ -1,11 +1,11 @@
 <?php
 
-namespace mistim\kernel\modules\admin\models\search;
+namespace mistim\modules\admin\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use mistim\kernel\modules\admin\models\AdminAuth;
+use mistim\modules\admin\models\AdminAuth;
 
 /**
  * AdminSearch represents the model behind the search form about `common\models\Admin`.

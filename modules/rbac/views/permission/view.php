@@ -7,7 +7,7 @@ use mistim\theme\adminlte\widgets\Box;
 
 /**
  * @var yii\web\View $this
- * @var mistim\kernel\modules\rbac\models\AuthItemModel $model
+ * @var mistim\modules\rbac\models\AuthItemModel $model
  */
 $this->title = Yii::t('app', 'View record') . ': '. $model->name;
 $this->params['breadcrumbs'][] = [

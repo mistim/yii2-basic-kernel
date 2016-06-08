@@ -7,7 +7,7 @@ use mistim\theme\adminlte\widgets\Box;
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var mistim\kernel\modules\rbac\models\search\AssignmentSearch $searchModel
+ * @var mistim\modules\rbac\models\search\AssignmentSearch $searchModel
  */
 $this->title = Yii::t('app', 'Assignments');
 $this->params['breadcrumbs'][] = $this->title;

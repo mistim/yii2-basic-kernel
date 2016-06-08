@@ -5,7 +5,7 @@ use mistim\theme\adminlte\widgets\Box;
 
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\modules\admin\models\Admin */
+/* @var $model mistim\modules\admin\models\Admin */
 
 $this->title = Yii::t('admin', 'Add record');
 $this->params['breadcrumbs'][] = ['label' => Yii::t('admin', 'Admins'), 'url' => ['index']];

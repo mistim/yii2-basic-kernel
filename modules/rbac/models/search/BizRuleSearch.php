@@ -1,15 +1,15 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\models\search;
+namespace mistim\modules\rbac\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
-use mistim\kernel\modules\rbac\models\BizRuleModel;
+use mistim\modules\rbac\models\BizRuleModel;
 
 /**
  * Class BizRuleSearch
- * @package mistim\kernel\modules\rbac\models\search
+ * @package mistim\modules\rbac\models\search
  */
 class BizRuleSearch extends Model
 {

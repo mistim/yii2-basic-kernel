@@ -1,8 +1,8 @@
 <?php
 
-namespace mistim\kernel\modules\admin\models;
+namespace mistim\modules\admin\models;
 
-use mistim\kernel\modules\rbac\models\AuthAssignmentModel;
+use mistim\modules\rbac\models\AuthAssignmentModel;
 use yii\db\ActiveRecord;
 use Yii;
 

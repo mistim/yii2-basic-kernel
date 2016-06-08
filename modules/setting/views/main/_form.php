@@ -3,10 +3,10 @@
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\helpers\ArrayHelper;
-use mistim\kernel\models\Language;
+use mistim\models\Language;
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\modules\setting\models\Setting */
+/* @var $model mistim\modules\setting\models\Setting */
 /* @var $form yii\bootstrap\ActiveForm */
 ?>
 

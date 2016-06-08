@@ -1,13 +1,13 @@
 <?php
-namespace mistim\kernel\modules\admin;
+namespace mistim\modules\admin;
 
-use mistim\kernel\modules\setting\models\Setting;
+use mistim\modules\setting\models\Setting;
 use Yii;
 use yii\base\Theme;
 
 /**
  * Class Module
- * @package mistim\kernel\modules\admin
+ * @package mistim\modules\admin
  */
 class Module extends \yii\base\Module
 {
@@ -18,7 +18,7 @@ class Module extends \yii\base\Module
     public $defaultRoute = 'main';
 
     /** @var string $identityClass */
-    public $identityClass = 'mistim\kernel\modules\admin\models\AdminAuth';
+    public $identityClass = 'mistim\modules\admin\models\AdminAuth';
 
     /** @var string $loginUrl */
     public $loginUrl = '/admin/main/login';
@@ -92,7 +92,7 @@ class Module extends \yii\base\Module
             'sourceLanguage'        => 'en-US',
             //'enableCaching'         => true,
             //'cachingDuration'       => 60,
-            'on missingTranslation' => ['mistim\kernel\components\TranslationEventHandler', 'handleMissingTranslation']
+            'on missingTranslation' => ['mistim\components\TranslationEventHandler', 'handleMissingTranslation']
         ];
     }
 

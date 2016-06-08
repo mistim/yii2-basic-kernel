@@ -1,6 +1,6 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\models\search;
+namespace mistim\modules\rbac\models\search;
 
 use yii\base\Model;
 use yii\data\ArrayDataProvider;
@@ -9,7 +9,7 @@ use Yii;
 
 /**
  * Class AuthItem
- * @package mistim\kernel\modules\rbac\models\search
+ * @package mistim\modules\rbac\models\search
  */
 class AuthItemSearch extends Model
 {

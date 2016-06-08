@@ -3,10 +3,10 @@
 use yii\helpers\Html;
 use yii\widgets\DetailView;
 use mistim\theme\adminlte\widgets\Box;
-use mistim\kernel\models\Message;
+use mistim\models\Message;
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\models\SourceMessage */
+/* @var $model mistim\models\SourceMessage */
 
 $this->title = Yii::t('admin', 'Record') . ' № ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('admin', 'Messages'), 'url' => ['index']];

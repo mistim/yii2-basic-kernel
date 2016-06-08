@@ -11,10 +11,10 @@ Once the extension is installed, simply modify your application configuration as
             'modules' => [
                 .....
                 'admin' => [
-                    'class' => 'mistim\kernel\modules\admin\Module',
+                    'class' => 'mistim\modules\admin\Module',
                     'modules' => [
                         'setting' => [
-                            'class' => 'mistim\kernel\modules\setting\Module',
+                            'class' => 'mistim\modules\setting\Module',
                         ],
                     ]
                 ],

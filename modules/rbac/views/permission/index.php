@@ -9,7 +9,7 @@ use mistim\theme\adminlte\widgets\grid\ActionColumn;
 /**
  * @var yii\web\View $this
  * @var yii\data\ActiveDataProvider $dataProvider
- * @var mistim\kernel\modules\rbac\models\search\AuthItemSearch $searchModel
+ * @var mistim\modules\rbac\models\search\AuthItemSearch $searchModel
  */
 $this->title = Yii::t('app', 'Permissions');
 $this->params['breadcrumbs'][] = $this->title;

@@ -1,6 +1,6 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\models\search;
+namespace mistim\modules\rbac\models\search;
 
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
@@ -9,7 +9,7 @@ use yii\rbac\Role;
 
 /**
  * Class AssignmentSearch
- * @package mistim\kernel\modules\rbac\models\search
+ * @package mistim\modules\rbac\models\search
  */
 class AssignmentSearch extends Model
 {

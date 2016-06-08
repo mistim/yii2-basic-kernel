@@ -1,12 +1,12 @@
 <?php
-namespace mistim\kernel\components;
+namespace mistim\components;
 
 use Yii;
 use yii\helpers\Json;
 
 /**
  * Class ApiTranslation
- * @package mistim\kernel\components
+ * @package mistim\components
  */
 class ApiTranslation
 {

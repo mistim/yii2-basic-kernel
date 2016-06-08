@@ -2,11 +2,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-use mistim\kernel\modules\admin\models\Admin;
+use mistim\modules\admin\models\Admin;
 use mistim\theme\adminlte\widgets\Box;
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\modules\admin\models\Admin */
+/* @var $model mistim\modules\admin\models\Admin */
 
 $this->title = Yii::t('admin', 'Record') . ' № ' . $model->intAdminID;
 $this->params['breadcrumbs'][] = ['label' => 'Admins', 'url' => ['index']];

@@ -6,7 +6,7 @@ use mistim\theme\adminlte\widgets\Box;
 use mistim\theme\adminlte\widgets\grid\ActionColumn;
 
 /* @var $this yii\web\View */
-/* @var $searchModel mistim\kernel\modules\rbac\models\search\AssignmentSearch */
+/* @var $searchModel mistim\modules\rbac\models\search\AssignmentSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('app', 'Assignments');
@@ -35,7 +35,7 @@ $gridConfig = [
             'attribute' => 'role',
             'value'     => function ($data) {
                 $result = [];
-                /** @var mistim\kernel\modules\rbac\models\AuthAssignmentModel $role */
+                /** @var mistim\modules\rbac\models\AuthAssignmentModel $role */
                 foreach ($data->roles as $role) {
                     $result[] = $role->item_name;
                 }

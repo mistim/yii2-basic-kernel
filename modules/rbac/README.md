@@ -11,10 +11,10 @@ Once the extension is installed, simply modify your application configuration as
             'modules' => [
                 .....
                 'admin' => [
-                    'class' => 'mistim\kernel\modules\admin\Module',
+                    'class' => 'mistim\modules\admin\Module',
                     'modules' => [
                         'rbac' => [
-                            'class' => 'mistim\kernel\modules\rbac\Module',
+                            'class' => 'mistim\modules\rbac\Module',
                         ],
                     ]
                 ],
@@ -22,7 +22,7 @@ Once the extension is installed, simply modify your application configuration as
             'components' => [
                 ....
                 'authManager' => [
-                    'class' => 'mistim\kernel\modules\rbac\components\DbManager',
+                    'class' => 'mistim\modules\rbac\components\DbManager',
                     'defaultRoles' => ['guest', 'user'],
                 ],
             ]
@@ -45,7 +45,7 @@ You can then access Auth manager through the following URL:
 
 For applying rules add to your controller following code:
 
-    use mistim\kernel\modules\rbac\components\AccessControl;
+    use mistim\modules\rbac\components\AccessControl;
 
     class ExampleController extends Controller 
     {

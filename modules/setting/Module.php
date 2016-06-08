@@ -1,11 +1,11 @@
 <?php
 
-namespace mistim\kernel\modules\setting;
+namespace mistim\modules\setting;
 
 
 /**
  * Class Module
- * @package mistim\kernel\modules\setting
+ * @package mistim\modules\setting
  */
 class Module extends \yii\base\Module
 {

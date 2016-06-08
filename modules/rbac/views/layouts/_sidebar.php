@@ -1,5 +1,5 @@
 <?php
-use mistim\kernel\modules\rbac\assets\RbacAsset;
+use mistim\modules\rbac\assets\RbacAsset;
 
 RbacAsset::register($this);
 $this->params['sidebar'] = [

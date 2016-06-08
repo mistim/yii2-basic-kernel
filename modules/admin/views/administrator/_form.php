@@ -2,11 +2,11 @@
 
 use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
-use mistim\kernel\modules\admin\models\Admin;
+use mistim\modules\admin\models\Admin;
 use yii\helpers\ArrayHelper;
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\modules\admin\models\Admin */
+/* @var $model mistim\modules\admin\models\Admin */
 /* @var $form yii\bootstrap\ActiveForm */
 ?>
 

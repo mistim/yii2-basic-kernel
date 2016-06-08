@@ -9,12 +9,12 @@ Once the extension is installed, simply modify your application configuration as
             //....
             'bootstrap' => [
                     // ....
-                    'mistim\kernel\modules\admin\Bootstrap',
+                    'mistim\modules\admin\Bootstrap',
                 ],
             'modules' => [
                 // .....
                 'admin' => [
-                    'class'          => 'mistim\kernel\modules\admin\Module',
+                    'class'          => 'mistim\modules\admin\Module',
                     'panelName'      => 'Admin Panel',
                     'panelShortName' => 'AP',
                     //'adminPath'      => 'admin-q7y'

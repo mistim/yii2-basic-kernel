@@ -1,14 +1,14 @@
 <?php
 
-namespace mistim\kernel\models\search;
+namespace mistim\models\search;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use mistim\kernel\models\Language;
+use mistim\models\Language;
 
 /**
- * LanguageSearch represents the model behind the search form about `mistim\kernel\models\Language`.
+ * LanguageSearch represents the model behind the search form about `mistim\models\Language`.
  */
 class LanguageSearch extends Language
 {

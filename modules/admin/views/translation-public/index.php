@@ -4,11 +4,11 @@ use yii\helpers\Url;
 use yii\grid\GridView;
 use mistim\theme\adminlte\widgets\Box;
 use mistim\theme\adminlte\widgets\grid\ActionColumn;
-use mistim\kernel\models\Language;
+use mistim\models\Language;
 use yii\helpers\ArrayHelper;
 
 /* @var $this yii\web\View */
-/* @var $searchModel mistim\kernel\models\Search\MessageSearch */
+/* @var $searchModel mistim\models\Search\MessageSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 Url::remember(Url::current());

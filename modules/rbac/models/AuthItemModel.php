@@ -1,6 +1,6 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\models;
+namespace mistim\modules\rbac\models;
 
 use yii\base\Model;
 use yii\helpers\VarDumper;

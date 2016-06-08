@@ -1,11 +1,11 @@
 <?php
 
-namespace mistim\kernel\modules\admin\controllers;
+namespace mistim\modules\admin\controllers;
 
 use Yii;
-use mistim\kernel\models\Language;
-use mistim\kernel\models\search\LanguageSearch;
-use mistim\kernel\modules\admin\controllers\BaseController;
+use mistim\models\Language;
+use mistim\models\search\LanguageSearch;
+use mistim\modules\admin\controllers\BaseController;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 

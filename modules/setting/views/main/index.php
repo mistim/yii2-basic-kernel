@@ -4,10 +4,10 @@ use yii\grid\GridView;
 use mistim\theme\adminlte\widgets\Box;
 use mistim\theme\adminlte\widgets\grid\ActionColumn;
 use yii\helpers\Html;
-use mistim\kernel\modules\setting\models\Setting;
+use mistim\modules\setting\models\Setting;
 
 /* @var $this yii\web\View */
-/* @var $searchModel mistim\kernel\modules\setting\models\search\SettingSearch */
+/* @var $searchModel mistim\modules\setting\models\search\SettingSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('app', 'Settings');

@@ -6,7 +6,7 @@
 
 use mistim\theme\adminlte\assets\AdminLteAsset;
 use mistim\theme\adminlte\assets\BootboxAsset;
-use mistim\kernel\assets\AdminAsset;
+use mistim\assets\AdminAsset;
 use yii\helpers\Html;
 use yii\helpers\Url;
 

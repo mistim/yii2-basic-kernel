@@ -1,12 +1,12 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\models;
+namespace mistim\modules\rbac\models;
 
 use yii\base\Model;
 
 /**
  * Class RouteModel
- * @package mistim\kernel\modules\rbac\models
+ * @package mistim\modules\rbac\models
  */
 class RouteModel extends Model
 {

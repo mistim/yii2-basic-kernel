@@ -1,8 +1,8 @@
 <?php
 
-namespace mistim\kernel\modules\admin\models;
+namespace mistim\modules\admin\models;
 
-use mistim\kernel\modules\admin\models\AdminAuth;
+use mistim\modules\admin\models\AdminAuth;
 use Yii;
 use yii\base\Model;
 

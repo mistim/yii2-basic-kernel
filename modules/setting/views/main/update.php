@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use mistim\theme\adminlte\widgets\Box;
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\models\Setting */
+/* @var $model mistim\models\Setting */
 
 $this->title = Yii::t('app', 'Update record') . ' № ' .  $model->intSettingID;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('app', 'Settings'), 'url' => ['index']];

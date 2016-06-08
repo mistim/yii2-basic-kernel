@@ -1,12 +1,12 @@
 <?php
 
-namespace mistim\kernel\modules\admin;
+namespace mistim\modules\admin;
 
 use yii\base\BootstrapInterface;
 
 /**
  * Class Bootstrap
- * @package mistim\kernel\extensions
+ * @package mistim\extensions
  */
 class Bootstrap implements BootstrapInterface
 {

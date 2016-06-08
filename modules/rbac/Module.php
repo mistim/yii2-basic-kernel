@@ -1,11 +1,11 @@
 <?php
 
-namespace mistim\kernel\modules\rbac;
+namespace mistim\modules\rbac;
 
 
 /**
  * Class Module
- * @package mistim\kernel\modules\rbac
+ * @package mistim\modules\rbac
  */
 class Module extends \yii\base\Module
 {
@@ -30,7 +30,7 @@ class Module extends \yii\base\Module
      * See also the [guide section on autoloading](guide:concept-autoloading) to learn more about
      * defining namespaces and how classes are loaded.
      */
-    public $controllerNamespace = 'mistim\kernel\modules\rbac\controllers';
+    public $controllerNamespace = 'mistim\modules\rbac\controllers';
 
     /**
      * Initializes the module.

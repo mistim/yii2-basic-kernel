@@ -1,16 +1,16 @@
 <?php
 
-namespace mistim\kernel\models\search;
+namespace mistim\models\search;
 
-use mistim\kernel\models\Language;
-use mistim\kernel\models\SourceMessage;
+use mistim\models\Language;
+use mistim\models\SourceMessage;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 
 /**
  * Class SourceMessageSearch
- * @package mistim\kernel\models\search
+ * @package mistim\models\search
  */
 class SourceMessageSearch extends SourceMessage
 {

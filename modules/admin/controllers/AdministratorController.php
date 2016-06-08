@@ -1,9 +1,9 @@
 <?php
 
-namespace mistim\kernel\modules\admin\controllers;
+namespace mistim\modules\admin\controllers;
 
-use mistim\kernel\modules\admin\models\AdminAuth;
-use mistim\kernel\modules\admin\models\search\AdminSearch;
+use mistim\modules\admin\models\AdminAuth;
+use mistim\modules\admin\models\search\AdminSearch;
 use Yii;
 use yii\web\NotFoundHttpException;
 use yii\widgets\ActiveForm;

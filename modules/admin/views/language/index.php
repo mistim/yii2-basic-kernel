@@ -4,10 +4,10 @@ use yii\helpers\Html;
 use mistim\theme\adminlte\widgets\Box;
 use mistim\theme\adminlte\widgets\grid\ActionColumn;
 use yii\grid\GridView;
-use mistim\kernel\models\Language;
+use mistim\models\Language;
 
 /* @var $this yii\web\View */
-/* @var $searchModel mistim\kernel\models\search\LanguageSearch */
+/* @var $searchModel mistim\models\search\LanguageSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('admin', 'Languages');

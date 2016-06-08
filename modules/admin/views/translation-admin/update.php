@@ -4,8 +4,8 @@ use yii\helpers\Html;
 use mistim\theme\adminlte\widgets\Box;
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\models\Message */
-/* @var $sourceMessage mistim\kernel\models\sourceMessage */
+/* @var $model mistim\models\Message */
+/* @var $sourceMessage mistim\models\sourceMessage */
 
 /*$this->title = Yii::t('admin', 'Update {modelClass}: ', [
     'modelClass' => Yii::t('admin', 'Message'),

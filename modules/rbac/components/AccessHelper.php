@@ -1,6 +1,6 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\components;
+namespace mistim\modules\rbac\components;
 
 use ReflectionClass;
 use yii\caching\TagDependency;
@@ -9,7 +9,7 @@ use Yii;
 
 /**
  * Class AccessHelper
- * @package mistim\kernel\modules\rbac\components
+ * @package mistim\modules\rbac\components
  */
 class AccessHelper
 {

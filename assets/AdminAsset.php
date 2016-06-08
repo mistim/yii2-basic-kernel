@@ -5,7 +5,7 @@
  * @license http://www.yiiframework.com/license/
  */
 
-namespace mistim\kernel\assets;
+namespace mistim\assets;
 
 use yii\web\AssetBundle;
 

@@ -1,16 +1,16 @@
 <?php
 
-namespace mistim\kernel\modules\rbac\models;
+namespace mistim\modules\rbac\models;
 
 use Yii;
 use yii\base\Model;
 use yii\rbac\Rule;
-use mistim\kernel\modules\rbac\components\BizRule;
+use mistim\modules\rbac\components\BizRule;
 
 
 /**
  * Class BizRuleModel
- * @package mistim\kernel\modules\rbac\models
+ * @package mistim\modules\rbac\models
  */
 class BizRuleModel extends Model
 {

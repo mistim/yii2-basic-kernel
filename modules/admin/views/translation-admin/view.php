@@ -5,7 +5,7 @@ use yii\widgets\DetailView;
 use mistim\theme\adminlte\widgets\Box;
 
 /* @var $this yii\web\View */
-/* @var $model mistim\kernel\models\Message */
+/* @var $model mistim\models\Message */
 
 $this->title = Yii::t('admin', 'Record') . ' № ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => Yii::t('admin', 'Messages'), 'url' => ['index']];
