@@ -15,11 +15,10 @@
             "email": "m.mistim@gmail.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0",
         "yiisoft/yii2": "*",
-        "mistim/yii2-theme-adminlte": "dev-master"
+        "mistim/yii2-theme-adminlte": "@dev"
     },
     "autoload": {
         "psr-4": {
