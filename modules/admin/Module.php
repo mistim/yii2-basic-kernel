@@ -73,10 +73,10 @@ class Module extends \yii\base\Module
     protected function configTheme()
     {
         Yii::$app->view->theme = new Theme([
-            'pathMap' => ['@app/views' => '@app/modules/admin/views'],
+            'pathMap' => ['@app/views' => '@vendor/mistim/yii2-basic-kernel/modules/admin/views'],
         ]);
 
-        $this->layoutPath = Yii::getAlias('@app/modules/admin/views/layouts/');
+        $this->layoutPath = Yii::getAlias('@vendor/mistim/yii2-basic-kernel/modules/admin/views/layouts/');
         $this->layout = 'main';
 
         Yii::$app->assetManager->bundles = [];
